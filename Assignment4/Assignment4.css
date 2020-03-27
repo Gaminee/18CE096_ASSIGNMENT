@@ -1,0 +1,53 @@
+
+body{
+  background-image: url('f1.jfif');
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+  .simpleForm{
+  width: 100%;
+  margin: 20px auto;
+  padding: 6px 20px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+}
+.wrong-input{
+  border: 1px solid red;
+  animation: shake 0.5s;
+}
+input{
+  width: 90%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #2ecc71;
+  border-radius: 4px;
+  
+}
+button {
+  width: 100%;
+  background-color: #4CAF50;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+button:hover {
+  background-color: #45a049;
+}
+div{
+  background-color: #f2f2f2;
+  width: 400px;
+  border: 5px;
+  padding: 50px;
+  margin: 20px;
+  border-radius: 5px;
+}
+.abc{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}

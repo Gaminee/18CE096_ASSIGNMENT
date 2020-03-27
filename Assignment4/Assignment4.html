@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title></title>
+  <link rel="stylesheet" type="text/css" href="Assignment4.css">
+</head>
+<body>
+  <center>
+  <div class="abc">
+    <h1>  REGISTRATION FORM </h1>
+   <form action="submit.html" method="post" class="simpleform" onsubmit="return ValidateForm()">
+    <input type="text" id="username" placeholder="Participent Name" onblur="myFunction()" required="1">
+      <p class="error"></p>
+    <input type="number" id="phoneNum" placeholder="Phone Number" required="1">
+      <p class="error"></p>
+    <input type="password" id="password" placeholder="Password" required="1" >
+      <p class="error"></p>
+    <input type="password" id="confirm_password" placeholder="Confirm Password" required="1">
+      <p class="error"></p>
+    <input type="email address" id="email address" placeholder="email address" required="1">
+      <button type="submit">Register</button>
+   </form>
+</div>
+</center>
+<script>
+function myFunction() {
+  var x = document.getElementById("username");
+  x.value = x.value.toUpperCase();
+}
+</script>
+   
+</body>
+</html>
